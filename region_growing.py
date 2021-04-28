@@ -5,7 +5,7 @@ import os, sys, getopt
 
 DICOM_IMAGE_EXT = '.dcm'
 OTHER_IMAGE_EXT = ['.jpg','.png', '.jpeg']
-IMAGE_PATH = 'flower.jpg' # Default image path
+IMAGE_PATH = '1-14.dcm' # Default image path
 CONN = 4
 
 def run_region_growing_on_image(image_path):
